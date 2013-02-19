@@ -1,0 +1,29 @@
+make_hypothetical.pl
+  This just extracts hypothetical ORFs from a given gff file
+  By itself, not very useful.
+
+make_library.pl
+  Extracts ORFs with some padding from the combination of a genomic
+  fasta file and gff.   It has some initial attempts to figure out if
+  the annotated transcripts are in the correct reading frame and/or if
+  they contain a usable reading frame.  In its current form
+  (01/01/2013) it isn't very useful other than as a reminder of quick
+  and easy ways to extract sequences.
+
+make_annotated_genes.pl
+  This took make_library.pl and stripped the junk out and is useful
+  for extracting all 'gene' annotations from the tritryp gff files.
+  This script was used to perform various BLAST analyses of the
+  T.cruzi haplotypes (described next).
+
+concat_blast.sh
+  Shell script to combine the Esmeraldo, Non-Esmeraldo, and unassigned
+  haplotypes (and contigs) into the 7 possible combinations thereof.
+  Each resulting blast database results in ${PWD}/blast and gets a
+  shortened name 'esmer, non, unas, esmer-non ...'  These are then
+  used by...
+
+single-multi.pl
+  Written with Wanderson.  Performs blast searches of each haplotype
+  against the others to get a feeling for the single-copy ORFs, those
+  with a couple/few, and many copies.
