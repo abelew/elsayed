@@ -1,0 +1,144 @@
+Day2 of the illumina super-optimized protocol for generating RNA seq
+libraries.
+
+Prep: 
+  1.  Remove 1 tube of end repair mix
+  2.  Thaw AMpure beads RT >= 30 min
+  3.  Get fresh plate with 'ALP' barcode
+  4.  Preheat thermocycler 30C
+
+I) End Repair
+  This process converts overhangs from fragmentation into blunt ends,
+  using 3'->5' exonuclease activity while polymerase fills in 5'
+  overhangs.
+
+  1.  If using the end repair controls, make a 1:100 dilution in
+  resuspension buffer.
+  2.  Add 10ul of either diluted end repair or resuspension buffer
+  directly to each dscDNA sample.
+  3.  Add 40ul of end repair mix, gently mix 10x
+  4.  Seal the plate
+
+II) Incubate IMP (Insert modification plate)
+  1.  30C 30 minutes on thermocycler
+  2.  Remove plate
+
+III) Clean ImP
+  1.  Remove seal immediately
+  2.  Vortex AMPure beads, add 160ul to each well.  Mix 10x
+  3.  Incubate RT 15 min
+  4.  Place on stand >= 5 minutes until clear
+  5.  Remove/discard 127.5ul supernatant without disturbing beads
+  6.  Repeat removal of beads, assuming ~ 5ul remain without
+  disturbing beads
+  7.  Gently add 200ul fresh 80% EtOH
+  8.  Incubate >= 30 seconds on plate; remove/discard supernatant
+  9.  Repeat 80% wash and discard
+  10.  Leave samples on stand 15 minutes to dry.  Then remove.
+  11.  Resuspend pellet 17.5ul resuspension buffer, pipette mix 10x
+  gently
+  12.  Incubate >= 2 minutes
+  13.  Place back on stand >= 5 minutes
+  14.  Transfer 15ul of supernatant to fresh 'ALP' plate
+
+  This marks another safe stopping point perhaps the end of day 1.
+
+III)  Adenylate 3' ends (Make Insert Modification Plate (A-tailing))
+
+  Add a single 'A' to the 3' ends of the blunt fragments to prevent
+  homo-ligation.  The adapters have a corresponding 'T' to promote
+  adapter ligation.
+
+  prep.  Thaw a-tailing mix RT
+    preheat thermocycler 37C  
+
+  1.  If using a-tailing control, make a 1:100 dilution in suspension
+  buffer
+  2.  Add 2.5ul of diluted control or resuspension buffer to each
+  well.
+  3.  Mix 30ul 10x
+  4.  Add 12.5ul A-tailing mix to each well
+
+IV)  Incubate A-tailing mix
+  1.  Place plate on thermocycler 37C 30 minutes
+  2.  Remove to RT
+
+V)  Ligation
+  prep:  Thaw chosen indices, stop-ligase mix, and optionally the
+  ligase control, AMpure beads if not already
+    Preheat the thermocycler 30C
+    Get 2 new plates named 'CAP' and 'PCR'
+
+  1.  Spin down indexed adapters and stop mix 600g 5 sec
+  2.  Immediately before use, remove ligase mix (it is likely active
+  at RT) and potentially aliquot this for future use...
+  3.  Remove seal from plate
+  4.  Add 2.5ul ligase mix to each well
+  5.  Immediately return ligase to freezer
+  6.  1:100 dilute ligation control if using
+  7.  Add 2.5ul of ligation control or resuspension buffer to each
+  well
+  8.  Add 2.5ul of each thawed adapter
+  9.  Mix the 40ul resulting reaction 10x gently
+  10.  Seal plate
+
+VI) Incubate Ligations
+  1.  Incubate plate 30C 10 minutes
+  2.  Remove plate to RT
+
+VII) Stop Ligase
+  1.  Remove seal
+  2.  Add 5ul of stop ligase mix, pipette mix 10x
+
+VIII) Clean Ligations
+  1.  Vortex beads, add 42ul mixed beads to each well, mix 10x
+  2.  Incubate plate RT 15 min
+  3.  Incubate >= 5 min on stand until clear
+  4.  Remove/discard 79.5ul supernatant while on stand
+  5.  Add 200ul 80% EtOH gently
+  6.  Let sit >= 30 seconds, remove/discard without disturbing
+  7.  Repeat 200ul wash
+  8.  15 minute dry on magnetic stand
+  9.  Resuspend 52.5 resuspension buffer, mix 10x
+  10.  Incubate RT 2 minutes
+  11.  Place back on stand >= 5 minutes until clear
+  12.  Transfer 50ul supernatant to 'CAP' plate  (Another cleaning)
+  13.  Vortex beads Add 50ul to each well of the 'CAP' plate
+  14.  Incubate RT 15 minutes
+  15.  Place on stand >= 5 minutes until clear
+  16.  Remove/discard 95ul supernatant gently
+  17.  Perform 200ul 80% ethanol wash gently
+  18.  Incubate >= 30 seconds on stand, remove supernatant
+  19.  Repeat 80% wash
+  20.  15 minute dry on stand
+  21.  Resuspend pellet 22.5ul resuspension buffer with 10x gentle mix
+  22.  Incubate >= 2 min RT
+  23.  Place plate on stand >= 5 minutes until clear
+  24.  Transfer 20ul supernatant to 'PCR' plate
+
+IX)  PCR enrichment
+  prep:  RT thaw PCR master mix and primer cocktail
+    Thaw beads if necessary, prepare themocycler with 15 cycle 60C 30s
+  anneal, 72C 30s extension, get new plate 'TSP1'
+  1.  Add 5ul thawed primer cocktail to each well
+  2.  Add 25ul master mix and mix all 40ul 10x gently
+  3.  Seal plate
+
+X)  Amplification
+  1.  Run the program ;p
+
+XI)  PCR cleaning
+  1.  Vortex beads, add 50ul to each well -> 100ul total and mix 10x
+  2.  Incubate RT 15 min
+  3.  Place on stand >= 5 min until clear
+  4.  Remove/discard 95ul
+  5.  Add 200ul 80% EtOH
+  6.  Incubate >= 30 seconds -> remove
+  7.  Repeat 200ul wash
+  8.  Let sit 15 min RT to dry
+  9.  Resuspend 32.5 resuspension buffer with 10x mix
+  10.  Incubate >= 2 min
+  11.  Return to stand >= 5 min until clear
+  12.  Move 30ul supernatant to 'TSP1' plate -- or perhaps to labeled
+  eppendorf tubes, as at this point we can quantify the DNA and send
+  it for bioanalyzer -> sequencing.

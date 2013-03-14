@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 . $LAB/scripts/dotbashrc
-MYHIST=$HOME/.readline_inputs
+MYHIST=$LAB/scripts/.trinity_inputs
 history -r $MYHIST
 history -a $MYHIST
 history -n $MYHIST

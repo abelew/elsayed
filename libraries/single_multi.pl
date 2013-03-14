@@ -5,6 +5,11 @@ use Bio::Seq;
 use Bio::SearchIO::blast;
 use Bio::Tools::Run::StandAloneBlast;
 use autodie;
+## Sorted library provided on the command line by copy number according to BLAST searches
+## The criteria for a hit are not very strong: (E: 0.00001  Score: 100)
+## This assumes an argument which is the name of one of the BLAST databases
+## esmer, non, unas, esmer-non, esmer-unas, non-unas, all
+## It will then compare the provided library against all possible libraries
 
 ## This script assumes a name 'esmer' 'non' 'unas' 'esmer-non' ... 'all'
 my @possible_libraries = ('esmer','non','unas','esmer-non','esmer-unas','non-unas','all');

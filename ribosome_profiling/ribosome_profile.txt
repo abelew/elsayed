@@ -1,0 +1,349 @@
+Going to attempt to make a checklist-esque protocol as per
+RNAseq_library_preparation.
+
+I) Lysis Buffer Preparation
+  1.  For each 1 ml lysis buffer desired, mix:
+      a)  1 ml polysome buffer*
+      b)  50 ul 10% Triton-X
+      c)  24 U DNAse
+      d)  10 ul [0.1 M] DTT
+      e)  100 ug cycloheximide  (2 ul of 50 ug/ul stock)
+  2.  For each 10 ml of cell culture, make 2-5 ml 1x PBS
+      a)  Supplement with 8-20 ul cycloheximide for each 10 ml final
+      volume.
+  3.  For each 40 ml of cell culture, mix 10 ml growth media
+  supplemented with cycloheximide (100 ul cycloheximide for each 40 ml
+  media)
+
+II) Cell Lysis (A)
+  1.  Add cycloheximide/growth media to cells.  Let sit 3-5 min.
+  2.  Split cells/cycloheximide to an even number of 50ml conical tubes.
+  3.  Spin down 4 min @ >= 3k rpm.
+  4.  Replace media with PBS
+  5.  Spin down 4 min @ >= 3k rpm.
+  6.  Replace PBS/cycloheximide with 1 ml lysis buffer / conical.
+  7.  Mix lyse >= 20x with the 1000 ul pipettor.
+  8.  Spin down maximum speed 10 min 4C.
+  9.  Remove 200 ul to RNA collection eppendorf (B).
+  10. Remove rest (800 ul) to RP collection eppendorf (C).
+
+III) Ribosome Profile Digestion (C)
+  1.  To calibrate amount of RNAseI added to lysate, place 1 ul 1:10
+  diluted on nanodrop.  For each 5 OD recorded in this fashion, use
+  120 U RNAseI.  This seems to work out to ~ 8 ul RNAseI (at 100 U /
+  ul) for each 300 ul lysate.
+  2.  Take 300 ul of lysate, add appropriate amount of RNAseI.
+  3.  Mix 45 min RT.
+  4.  Freeze remaining lysate -80 C.
+
+IV) Total mRNA Isolation (B)
+  1.  Add 1:10 volume 10% SDS and equal volume Acid Phenol:Chloroform
+  to the remaining total mRNA.
+  2.  Mix / vortex samples
+  3.  Spin down maximum speed ~ 5 min 4 C.
+  4.  Depending on sample concentration, repeat up to 2x.
+  5.  Finish with final isolation of Chloroform:IAA (24:1)
+  6.  Precipitate with 2 ul glycogen, 1:10 volume NaOAc, 1.5 volume
+  Isopropanol.  Store -20 C >= 2 hours.
+    Potentially much later...
+  7.  Spin RNA samples down >= 20 min, full speed, 4 C.
+  8.  Wash pellet with 80% cold ethanol.
+  9.  Let dry.
+  10. Resuspend 25 ul water and record concentration.
+
+V) Ribosome Fragment isolation with S400 column
+  Note:  Sephacryl columns come with TE, which will dissociate
+  ribosomes.
+  1.  Re-equilibrate column with >= 3 ml polysome buffer with
+  cycloheximide.
+     a.  This is performed by evacuating the column repeatedly with
+  buffer.
+  2.  When digestion from "III" is complete, add 15 ul SUPERaseIn to
+  samples.
+  3.  Centrifuge through S400 column 600 g 2 minutes.
+  4.  Collect flowthrough and add 100 ul polysome buffer and 20 ul 10%
+  SDS.
+  5.  Extract RNA as per IV.
+
+VI) rRNA removal
+  1.  Not yet performed.
+
+VII)  PAGE purification of 28-30 nt fragments
+  *Note: my RNA loading dye is just formamide:bromophenol blue
+  1.  Pour 12-15% acrylamide gel (this recipe gives about 90 seconds to
+  pour the gel before it sets.  Thus have pouring pipette and glasses
+  ready before mixing.)
+    a.  Clean plates before with RNAse-Zap
+    b.  16.8 g Urea + 7-10 ml ideally heated water, heat.
+    c.  4 ml 10x TBE
+    d.  10-13 ml acrylamide mixture
+    e.  18 ul TEMED
+    f.  1 aliquot 10% APS (this is really excessive)
+    g.  pour fast but carefully.
+    h.  let sit ~ 3-5 minutes, optionally mix another 1-5 ml in case
+    of severe leaks in our terribad pouring box.
+  2.  Mix equal volumes of RNA / loading dye for each sample.
+  3.  Mix 10 ul each marker oligo with equal volume loading dye.
+  4.  Heat 65-95 C 2-5 minutes. (I don't like 95 for this)
+  5.  Ice chill 2-5 minutes.
+  6.  Load gel with markers + 20-100 bp ladder
+    a.  I usually load them in reverse order so that when I crack the
+    plates the gel falls and is handled reversed and therefore in
+    'normal' order.  Also to avoid confusion I always load in this
+    order:  1: ladder 2,3: markers 4-n: samples: n+1: 1-3 ul mRNA and
+    leave the labeled eppendorf tubes with the samples in a rack until
+    run completion for comparison.
+  7.  Run 3-5 hours <= 100 V.  The + electrode on the gel-box is
+  uncertain, make sure the amperage stays 10<=n<=40 mA.  When the blue
+  dye band is at/near the bottom it is finished.
+  8.  Add 10-15 ml 1x TBE to pyrex dish and add 1-3 ul 'BigRed' dye.
+  This dye is much more sensitive than ethidium bromide and less
+  dangerous, but is very UV and white-light sensitive.  Good staining
+  can _NOT_ be seen if the lights are on.
+  9.  Open gel glasses over TBE/dye, dip cut plate into stain gel face
+  down.
+  10. Usually the gel falls right in, if not, encourage it.
+  11. Let stain under cover 10 minutes rocking.
+  12. Pre-label 2ml eppendorfs _and_ 600 ul for each sample + marker.
+  13. Poke a hole in the 600 ul tubes with small syringe, place the
+  small in the large tube in preparation for gel fragments.
+  12. Excise 26-34 bp bands and 1 oligo marker with fresh blade.
+  13. Remove gel fragments to appropriately labeled 600/2000 tubes.
+      a.  Some of the 2000 ul tubes explode in the centrifuge >= 7000
+      rpm.  I have done this with the nice 1600 ul tubes and it seems fine.
+  14. Spin gel fragments into the larger tube >= 8000 rpm 2 minutes.
+  15. Add 400 ul water, 40 ul 3M NaOAc, 40 ul, 4ul 0.1M EDTA, >= 2 ul
+  10% SDS  (Hey make a stock of this)
+  16. Place -80 C 30 minutes
+  17. Let sit RT overnight
+  18. Spin acrylamide+buffer through filter column into fresh
+  non-stick tube.
+  19. Purify samples using >17 nt process from zymo
+  clean+concentrator.
+  20. Elute to 20-40 ul
+  21. Precipitate RNA with 1-2 ul glycogen and 100-200 ul isopropanol.
+  22. Spin RNA samples down >= 20 min, full speed, 4 C.
+  23. Wash pellet with 80% cold ethanol.
+  24. Let dry.
+  25. Resuspend 10 ul 10 mM Tris pH 8.
+  
+VIII)  Dephosphorylate RNA fragments
+  1.  Add 33 ul water to samples
+  2.  Denature 80 C 90 seconds.
+  3.  Add 5 ul 10x PNK buffer
+  4.  Add 1 ul SuperaseIn
+  5.  Add 1 ul T4 PNK
+  6.  Incubate 1 hour 37 C.
+  7.  Heat inactivate 70 C 10 min.
+  8.  Precipitate with 39 ul water, 1 ul glycogen, 10 ul 3 M NaOAc,
+  150 ul isopropanol.
+  9.  Incubate >= 2 hours -20 C.
+  10. Spin down max speed >= 20 min 4 C.
+  11. Air dry sideways >= 15 minutes.
+
+IX)  Linker Ligation
+  1.  Resuspend RNA 8.5 ul 10 mM Tris pH 8 in a fresh tube.
+  2.  Add 1.5 ul preadenylated linker (0.5 ug / ul)
+  3.  Denature 90 seconds 80 C, cool to RT.
+  4.  Add 2 ul T4 Rnl2 buffer
+  5.  Add 6 ul PEG 8000 (50%)
+  6.  Add 1 ul superaseIn
+  7.  Add 1 ul T4 Rnl2(tr)
+  8.  Incubate 2.5 hours RT
+  9.  Add 340 ul water, 40 ul NaOAc, 1-2 ul glycogen
+  10. Add 500 ul isopropanol.
+  11. Incubate >= 2 hours -20 C.
+  12. Spin down max speed >= 20 min 4 C.
+  13. Air dry sideways >= 15 minutes.
+
+X)  Ligation product Gel separation
+  1.  Pour 12-15% acrylamide gel (this recipe gives about 90 seconds to
+  pour the gel before it sets.  Thus have pouring pipette and glasses
+  ready before mixing.)
+    a.  Clean plates before with RNAse-Zap
+    b.  16.8 g Urea + 7-10 ml ideally heated water, heat.
+    c.  4 ml 10x TBE
+    d.  10-13 ml acrylamide mixture
+    e.  18 ul TEMED
+    f.  1 aliquot 10% APS (this is really excessive)
+    g.  pour fast but carefully.
+    h.  let sit ~ 3-5 minutes, optionally mix another 1-5 ml in case
+    of severe leaks in our terribad pouring box.
+  2.  Mix equal volumes of RNA / loading dye for each sample.
+  3.  Heat 65-95 C 2-5 minutes. (I don't like 95 for this)
+  4.  Ice chill 2-5 minutes.
+  5.  Load gel with markers + 20-100 bp ladder
+    a.  I usually load them in reverse order so that when I crack the
+    plates the gel falls and is handled reversed and therefore in
+    'normal' order.  Also to avoid confusion I always load in this
+    order:  1: ladder 2,3: markers 4-n: samples: n+1: 1-3 ul mRNA and
+    leave the labeled eppendorf tubes with the samples in a rack until
+    run completion for comparison.
+  7.  Run 3-5 hours <= 100 V.  The + electrode on the gel-box is
+  uncertain, make sure the amperage stays 10<=n<=40 mA.  When the blue
+  dye band is at/near the bottom it is finished.
+  8.  Add 10-15 ml 1x TBE to pyrex dish and add 1-3 ul 'BigRed' dye.
+  This dye is much more sensitive than ethidium bromide and less
+  dangerous, but is very UV and white-light sensitive.  Good staining
+  can _NOT_ be seen if the lights are on.
+  9.  Open gel glasses over TBE/dye, dip cut plate into stain gel face
+  down.
+  10. Usually the gel falls right in, if not, encourage it.
+  11. Let stain under cover 10 minutes rocking.
+  12. Pre-label 2ml eppendorfs _and_ 600 ul for each sample + marker.
+  13. Poke a hole in the 600 ul tubes with small syringe, place the
+  small in the large tube in preparation for gel fragments.
+  12. Excise 26-34 bp bands and 1 oligo marker with fresh blade.
+  13. Remove gel fragments to appropriately labeled 600/2000 tubes.
+      a.  Some of the 2000 ul tubes explode in the centrifuge >= 7000
+      rpm.  I have done this with the nice 1600 ul tubes and it seems fine.
+  14. Spin gel fragments into the larger tube >= 8000 rpm 2 minutes.
+  15. Add 400 ul water, 40 ul 3M NaOAc, 40 ul, 4ul 0.1M EDTA, >= 2 ul
+  10% SDS  (Hey make a stock of this)
+  16. Place -80 C 30 minutes
+  17. Let sit RT overnight
+  18. Spin acrylamide+buffer through filter column into fresh
+  non-stick tube.
+  19. Purify samples using >17 nt process from zymo
+  clean+concentrator.
+  20. Elute to 20-40 ul
+  21. Precipitate RNA with 1-2 ul glycogen and 100-200 ul isopropanol.
+  22. Spin RNA samples down >= 20 min, full speed, 4 C.
+  23. Wash pellet with 80% cold ethanol.
+  24. Let dry.
+  25. Resuspend 10 ul 10 mM Tris pH 8 in a clean PCR tube.
+
+XI) Reverse Transcription (Super Script III)
+  1.  Add 2 ul RT primer (from 1.25 uM stock)
+  2.  Denature 80 C 90 seconds.
+  3.  Return thermocycler 48 C.
+  4.  Add 4 ul 1st strand buffer 
+  5.  Add 1 ul 10 mM dNTPs
+  6.  Add 1 ul 0.1 M DTT
+  7.  Add 1 ul SuperaseIn
+  8.  Add 1 ul superscript III
+  9.  Incubate on thermocycler 48 C 30 minutes.
+  10. Destroy RNA with 2.2 ul 1 N NaOH to each reaction.
+  11. Incubate 95 C 20 min.
+  12. Add 20 ul 3 M NaOAc, 2 ul glycogen, 156 ul water.
+  13. Add 300 ul isopropanol.
+  14. Incubate >= 2 hours -20 C.
+  15. Spin down max speed >= 20 min 4 C.
+  16. Air dry sideways >= 15 minutes.
+
+XII) PAGE purification of cDNA products
+  1.  Pour 12-15% acrylamide gel (this recipe gives about 90 seconds to
+  pour the gel before it sets.  Thus have pouring pipette and glasses
+  ready before mixing.)
+    a.  Clean plates before with RNAse-Zap
+    b.  16.8 g Urea + 7-10 ml ideally heated water, heat.
+    c.  4 ml 10x TBE
+    d.  10-13 ml acrylamide mixture
+    e.  18 ul TEMED
+    f.  1 aliquot 10% APS (this is really excessive)
+    g.  pour fast but carefully.
+    h.  let sit ~ 3-5 minutes, optionally mix another 1-5 ml in case
+    of severe leaks in our terribad pouring box.
+  2.  Mix equal volumes of RNA / loading dye for each sample.
+  3.  Heat 65-95 C 2-5 minutes. (I don't like 95 for this)
+  4.  Ice chill 2-5 minutes.
+  5.  Load gel with markers + 20-100 bp ladder
+    a.  I usually load them in reverse order so that when I crack the
+    plates the gel falls and is handled reversed and therefore in
+    'normal' order.  Also to avoid confusion I always load in this
+    order:  1: ladder 2,3: markers 4-n: samples: n+1: 1-3 ul mRNA and
+    leave the labeled eppendorf tubes with the samples in a rack until
+    run completion for comparison.
+  7.  Run 3-5 hours <= 100 V.  The + electrode on the gel-box is
+  uncertain, make sure the amperage stays 10<=n<=40 mA.  When the blue
+  dye band is at/near the bottom it is finished.
+  8.  Add 10-15 ml 1x TBE to pyrex dish and add 1-3 ul 'BigRed' dye.
+  This dye is much more sensitive than ethidium bromide and less
+  dangerous, but is very UV and white-light sensitive.  Good staining
+  can _NOT_ be seen if the lights are on.
+  9.  Open gel glasses over TBE/dye, dip cut plate into stain gel face
+  down.
+  10. Usually the gel falls right in, if not, encourage it.
+  11. Let stain under cover 10 minutes rocking.
+  12. Pre-label 2ml eppendorfs _and_ 600 ul for each sample + marker.
+  13. Poke a hole in the 600 ul tubes with small syringe, place the
+  small in the large tube in preparation for gel fragments.
+  12. Excise 26-34 bp bands and 1 oligo marker with fresh blade.
+  13. Remove gel fragments to appropriately labeled 600/2000 tubes.
+      a.  Some of the 2000 ul tubes explode in the centrifuge >= 7000
+      rpm.  I have done this with the nice 1600 ul tubes and it seems fine.
+  14. Spin gel fragments into the larger tube >= 8000 rpm 2 minutes.
+  15. Add 400 ul water, 40 ul 3M NaOAc, 40 ul, 4ul 0.1M EDTA, >= 2 ul
+  10% SDS  (Hey make a stock of this)
+  16. Place -80 C 30 minutes
+  17. Let sit RT overnight
+  18. Spin acrylamide+buffer through filter column into fresh
+  non-stick tube.
+  19. Purify samples using >17 nt process from zymo
+  clean+concentrator.
+  20. Elute to 20-40 ul
+  21. Precipitate RNA with 1-2 ul glycogen and 100-200 ul isopropanol.
+  22. Spin RNA samples down >= 20 min, full speed, 4 C.
+  23. Wash pellet with 80% cold ethanol.
+  24. Let dry.
+  25. Resuspend 15 ul 10 mM Tris pH 8 in a clean PCR tube.
+
+XIII) cDNA circularization
+  1.  To each reaction, add 2ul circular-ligase buffer
+  2.  1 ul ATP
+  3.  1 ul MnCl2
+  4.  1 ul Circularligase
+  5.  Incubate 1 hour 60 C
+  6.  Heat inactivate 80 C 10 min.
+
+XIV) rRNA depletion
+  1.  Combine 5 ul circularization reaction with 1 ul oligo
+  subtraction pool in PCR tube.
+  2.  Add 1 ul 20x SSC
+  3.  Add 3 ul water
+  4.  Denature 90 seconds 100 C.
+  5.  Anneal by decreasing to 37 C in 0.1 C / second increments,
+  followed by 15 min 37 C incubation.
+  6.  Vortex Streptavidin C1 DynaBeads (10 mg / ml) to resuspend.
+  7.  Add 37.5 ul beads for each subtraction aliquot.
+  8.  Transfer beads to fresh eppendorf and place on magnetic rack 1
+  minute.
+  9.  Remove all liquid
+  10. Remove tube from rack and resuspend in 37.5 ul 1x wash/bind
+  buffer
+  11. Repeat binding, isolation, rinsing process
+  12. Repeat binding, isolation, rinsing process
+  13. Repeat binding, place beads on rack, withdraw eluent, resuspend
+  in 10 ul of 2x bind/wash buffer.
+  14. Transfer 10.0 μl of subtraction reaction directly from the PCR
+  tube in the thermal cycler (from Step 46) to a bead aliquot
+  in the ThermoMixer. Incubate for 15 min at 37 °C with mixing at 1,000
+  rpm. 
+  15. Transfer tubes directly from the ThermoMixer to a magnetic rack
+  and isolate beads for 1 min. Recover 17.5 ul of eluate from the
+  depletion and transfer it to a new nonstick Microfuge tube.
+  16. Isopropanol precipitate as above.
+  17. Resuspend 5 ul 10 mM Tris pH 8.
+
+XV) PCR amplification and barcode addition
+  1.  Make 100 ul PCR reaction mixes for each sample
+    a) 20 ul Phusion HF buffer
+    b) 2 ul 10 mM dNTP
+    c) 0.5 ul 100 mM Forward library primer
+    d) 0.5 ul 100 mM Reverse library primer
+    e) 5 ul circularized template
+    f) 71 ul water
+    g) 1 ul polymerase
+  2.  Split reaction into 5 16.7 ul PCR tubes
+  3.  Perform PCR with 6,8,10,12,14 cycles of 10s denature, 10s 65 C
+  annealing, 5s 72 extension.
+
+XVI)  PAGE purification of libraries
+  Run gel as above.  Stain.  Cut primary extension product.
+  Recover DNA as above.
+
+
+
+N) Total mRNA fragmentation and end repair
+  I am thinking to perform these steps precisely as per the
+  illumina library kit

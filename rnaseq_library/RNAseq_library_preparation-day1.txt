@@ -1,0 +1,125 @@
+This is a super-optimized protocol intended to allow anyone to
+reproducibly prepare dsDNA libraries comprising from total mRNA.
+
+The required starting material is 0.1-4ug mRNA.  Recommended to use
+1-1.5ug.  The kit furthermore comes with controls for both end repair
+steps, polyA tailing, and DNA ligase.
+
+If using a new kit:  Get out the bead binding buffer, bead washing
+buffer, elution buffer, elute-prime-fragment mix from the -20 and thaw
+to RT.  Remove the RNA beads from 4C to RT, have the thermocycler
+ready for program 01 and set the centrifuge to 20C.
+
+    DAY 1
+ 
+I) Set up RNA Binding Plate (Make RBP)
+  0.  Add a 'RBP' barcode to a new PCR plate
+  1.  Dilute RNA with water to 50ul final volume (1-1.5ug / 50ul)
+  2.  Vortex beads to fully resuspend oligo dT beads
+  3.  Add 50ul RNA purification beads to each well to bind polyA RNA
+  to beads.  Gently pipette mix 6x
+  4.  Seal plate
+
+  iiia.  Make sure the elution buffer is thawed for step III6.
+
+II) Incubate RNA Binding Plate (Incubate 1 RBP)
+  1.  Place sealed plate on the 01mRNADenaturation cycle (65C 5m, 4C)
+    This denatures RNA and helps annealing.
+  2.  Remove plate immediately when it hits 4C
+  3.  Immediately remove seal from plate to avoid splashing
+  4.  Let plate sit on bench 5min to allow RNA to bind beads
+
+III) Wash RNA Binding Plate (Wash RBP)
+  1.  Place plate on the magnetic stand RT 5 min to separate polyA RNA
+  bound beads from solution
+  2.  Remove and discards all supernatant from each well.  Do not
+  distub the beads.
+  3.  Remove from magnetic stand
+  4.  Wash with 200ul bead washing buffer.  Pipette each well 6x.
+  5.  Place back on stand 5 min RT.
+  6.  Briefly centrifuge thawed elution buffer 600g 5 seconds.
+  7.  Carefully remove supernatant again
+  8.  Remove plate from stand.
+  9.  Add 50ul Elution buffer and mix 6x
+  10.  Add new seal and return elution buffer to 4C
+
+IV)  Incubation I
+  1.  Put plate on thermocycler set to 'RNA elution'
+  2.  Remove immediately when it reaches 25C
+  3.  Return plate to bench and carefully remove seal.
+
+V) Make RNA Fragmentation Plate
+  1.  Add 50ul bead binding buffer to each well, carefully mix 6x
+  2.  Let sit RT 5 min, return binding buffer to 4C
+  3.  Place on magnetic stand 5 min.
+  4.  Remove all supernatant
+  5.  Remove plate from stand.
+  6.  Wash beads with 200ul bead washing buffer and mix 6x
+  7.  Return buffer to 4C
+  8.  Return plate to stand 5 min.
+  9.  Carefully remove supernatant
+  10. Remove from the stand
+  11. Add 19.5 of EFP to each well, mix 6x
+  12. Reseal plate
+  13. Return EPF mix to -20C.
+ 
+VI) Incubation II
+  1.  Plate plate on thermocycler set to EFP
+  2.  Remove immediately when thermocycler reaches 4C.
+
+  via)  Get out a new plate with 'CDP' barcode
+
+VII)  First Strand Synthesiss
+  2.  Remove seal
+  1.  Place plate on stand for 5 minutes, do not remove
+  3.  Remove 17ul supernatant  to a new plate with 'CDP' barcode
+  4.  Centrifuge first strand mix 600g 5seconds.
+  5.  Assuming 6 samples, then make a master mix using: (thus 1:7
+  enzyme to mix, add 8ul mix to make 25ul reaction)
+    a) 49 ul first strand mix from superscript II box
+    b) 7ul MMLV RT
+  6.  Add 8ul of the first strand mix to each well of CDP plate and
+  mix 6x
+  7.  Reseal plate and "centrifuge" by hand
+
+VIII)  cDNA incubation
+  1.  Put plate on thermocycler with preprogrammed '1st strand
+  synthesis'
+  2.  Remove plate immediately when it reaches 4C
+
+IX)  Second strand synthesis preparation
+  1.  Remove 1 tube of 2nd strand master mix to RT
+  2.  Bring AMPure XP beads to RT 30 minutes
+  3.  Get thermocycler ready to go to 16C
+  4.  Have the 'IMP' barcode on a new plate
+  5.  Mix fresh 80% EtOH for washing steps
+
+X)  Second strand synthesis
+  2.  Remove seal.
+  1.  briefly centrifuge 2nd strand 600g 5s
+  3.  Add 25ul second strand mix to each well, mix 6x
+  4.  Reseal plate
+ 
+XI) Second strand incubation
+  1.  Incubate plate 16C 1 hour
+  2.  Remove plate, let sit until RT
+
+XII) Second strand cleaning
+  1.  Vortex AMPure XP beads, add 90ul beads to each well containing
+  50ul cDNA, pipette mix 10x
+  2.  Incubate plate 15 min RT
+  3.  Place plate on magnetic stand for >= 5 min
+  4.  Gently remove/discard 135ul supernatant from each well
+  5.  Keep plate on stand.  Add 200ul 80% new ethanol gently.
+  6.  Incubate plate 30 seconds RT, gently remove 80% etoh.
+  5a. Keep plate on stand still.  Add 200ul 80% ethanol gently.
+  6a.  Incubate plate 30 seconds RT, gently remove 80% EtOH.
+  7.  Let plate stand 15 min RT on the stand to dry.  Remove from stand.
+  8.  Centrifuge thawed resuspension 600g 5s
+  9.  Add 52.5ul resuspension buffer and mix 10x gently
+  10. Incubate 2 min RT
+  11. Incubate 5 min on magnetic stand.
+  12.  Transfer 50ul of the dscDNA supernatant to a new plate with the
+  'IMP' barcode.
+
+ END OF DAY 1
