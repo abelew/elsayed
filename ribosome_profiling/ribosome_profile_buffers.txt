@@ -1,0 +1,165 @@
+---------------------------------------------------------
+Buffers:
+
+Hemin:
+  100 ml [50 mN] NaOH 
+  0.2 g hemin
+  refrigerate
+
+LIT media: (JMC)
+  10 g / L Liver infusino
+  5 g / L bacto tryptose
+  1 g / L glucose
+  8 g / L Na2HPO4
+  0.4 g / L KCl
+  4 g / L NaCl
+  10 ml / L 0.2% hemin stock
+ 7.2 <= pH <= 7.4 with HCl
+ Volume to 1 L
+ Filter sterilize
+ Add 100 U / ml penicillin 100 ug / ml streptomycin
+ Add 10% heat inactivated FBS
+
+Cycloheximide stock:
+  0.5 g into 10 ml 100% EtOH in hood.
+  Split into 1 ml aliquots, store -20.
+
+Stock [0.1 M] Tris HCl
+  12.14 g Tris in 1 L H2O
+
+Stock [0.1 N] HCl
+  1.653 ml glacial (12.1 N) to 200 ml in H2O
+
+Stock [50 mN] NaOH
+  1.995 g NaOH in 1 L H2O (0.4 in 200 ml)
+
+50 ml stock 50 mM Tris buffers:
+pH 7.0:  25 ml Tris base [0.1 M]; 23.4 ml [0.1 N] HCl; 1.6 ml H2O
+pH 7.1:  25 ml Tris base [0.1 M]; 22.85 ml [0.1 N] HCl; 2.15 ml H2O
+pH 7.4:  25 ml Tris base [0.1 M]; 21 ml [0.1 N] HCl; 4 ml H2O
+pH 7.6:  25 ml Tris base [0.1 M]; 18.75 ml [0.1 N] HCl; 6.25 ml H2O
+pH 8.0:  25 ml Tris base [0.1 M]; 14.6 ml [0.1 N] HCl; 10.4 ml H2O
+pH 8.0:  25 ml Tris base [0.1 M]; 14.6 ml [0.1 N] HCl; 10.4 ml H2O
+pH 8.5:  25 ml Tris base [0.1 M]; 7.35 ml [0.1 N] HCl; 17.65 ml H2O
+
+Stock [5 M] NaCl
+  146.1 g in 500 ml H2O
+
+Stock [0.5 M] MgCl2
+  50.825 g in 500 ml H2O
+
+Polysome buffer:
+  20 ml [50 mM] Tris pH 7.4
+  2.5 ml [5 M] NaCl
+  1.5 ml [0.5 M] MgCl2
+  26 ml H2O
+
+Lysis buffer: (10 ml is too much, but easy)
+  10 ml polysome buffer
+  240 U DNAse
+  500 ul 10% Triton-X
+  100 ul [1 mM] DTT (I steal this from unused stock in superscript II kits)
+  20 ul cycloheximide stock
+
+PBS:
+  1:10 dilution 10x PBS
+  8-20 ul cycloheximide stock
+
+Stock [3 M] NaOAc pH 5.2
+  123.45 g in < 450 ml H2O
+  A lot of HCl
+  Bring close to 500 ml
+  Re-check pH and add more HCl
+  Bring to 500 ml water
+
+Stock 1 L 10x TBE
+  108 g Tris base
+  55 g Boric acid
+  20 ml [1 M] EDTA
+  H2O to 1 L
+
+Stock 1 L 10x MOPS
+  41.8 g MOPS (pH 7 with NaOH)
+  20 ml [1 M] NaOAc
+  10 ml EDTA
+  H2O to 1 L
+
+Stock [2 M] sucrose
+  342.30 g in 500 ml H2O
+  Marvel at how close that is to the average weight of a nucleotide...
+
+Stock fragmentation buffer
+  4 ml [0.1 M EDTA]
+  1.06 g Na2CO3
+  7.56 g NaHCO3
+  H2O to 200 ml
+
+Stock RNAse Inactivation spray
+  [10 mM] NaOH
+  5% SDS
+
+Stock 10% APS:
+  1 g APS power into 10 ml water
+  Split into 10 1 ml aliquots
+  Store -20
+
+Stock RNA loading dye:
+  10 ml formamide
+  100 ul 1 M EDTA
+  dip a 1 ml pipette tip into bromophenol blue to see dust
+  repeat if necessary (likely not), split and freeze -20
+
+RNA extraction buffer (PAGE):
+  [300 mM] NaOAc pH 5.5
+  [1.0 mM] EDTA
+  0.25% SDS
+
+DNA extraction buffer (PAGE):
+  [300 mM] NaCl
+  [10 mM] Tris pH 8
+  [1 mM] EDTA
+
+40 ml 10% PAGE gel
+10 ml water, heated
+4 ml 10x TBE
+16.8 g Urea
+  Get this to dissolve...
+9.8 ml 29:1 bisacrylamide mix
+18 ul TEMED (usually one would do APS before TEMED, but I go in
+opposite order because I am using more TEMED than usual and I don't
+want any localized polymerization.  As a result, hold your breath from
+here until pouring.)
+1 aliquot (300 ul <= n <= 1 ml) 10% APS
+ (1 aliquot of 1 ml APS will lead to polymerization in < 2 minutes)
+ 
+---------------------------------------------------------
+Part numbers:
+
+10 bp ladder: 1 ug / ul: Invitrogen 10821015
+CircLigase: Epicentre: CL4111K
+Cycloheximide:  100 mg / ml: Sigma C4859-1ML
+DNAse: 2 U / ul: Invitrogen AM2238
+dNTP: [10 mM]: Invitrogen 18427-013
+GelRed: 10000x: Biotium 41002
+GlycolBlue: 15 mg / ml: Invitrogen AM9515
+Phusion polymerase: NEB M0530S
+PBS: Invitrogen 20012-027
+RNAseI: 100 U / ul: Invitrogen AM2294
+SuperaseIn: 20 U / ul: Invitrogen AM2694
+Superscript III: Invitrogen 18080-093
+SYBR gold: 10000x: Invitrogen  S11494
+T4 polynucleotide kindase: NEB M0201S
+T4 RNA ligase 2 truncated: NEB M0242S
+
+
+
+
+Primer/ladder sequences:
+34 nt marker:
+AUGUACACGGAGUCGAGCUCAACCCGCAACGCGA-PO4
+26 nt marker:
+AUGUACACGGAGUCGACCCAACGCGA-PO4
+miRNA cloning linker:  NEB S1315S
+5'-rAppCTGTAGGCACCATCAAT–NH2-3'
+RT primer: (spC18 is hexa-ethylene glycol spacer)
+5'-(Phos)-AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGC-(SpC18)-CACTCA-(SpC18)-TTCAGACGTGTGCTCTTCCGATCTATTGATGGTGCCTACAG-3'
