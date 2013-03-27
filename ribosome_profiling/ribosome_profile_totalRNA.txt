@@ -1,0 +1,73 @@
+This describes the process to perform with totalRNA in an attempt to
+make it integrate it into the existing ribosome profiling library
+protocol.
+This begins with the total RNA isolated at step II 9 of the ribosome
+profiling protocol and uses the excess oligo dT magnetic beads
+provided by the illumina RNAseq kit.  It therefore follows that
+protocol precisely until the 'elute-fragment-prime' step -- at this
+point it deviates because the illumina protocol uses random hexamers.
+I instead choose to do a 95C incubation with 1x PNK buffer for 10
+minutes.  This is very similar to the Epicentre 'ARTseq' process --
+their buffer is 330 mM Tris-Acetate pH 7.5; 660 mM potassium acetate;
+100 mM MgCl2; 5 mM DTT while the default NEB PNK buffer is 700 mM
+Tris-HCl; 100 mM MgCl2; 50 mM DTT.  Since (I presume) this is a
+magnesium based fragmentation, either buffer should be equally usable
+(both have same magnesium)
+
+Thus, starting with 200 ul total RNA.
+
+I)  RNA Binding to Beads
+  1.  Thaw beads and vortex
+  2.  Take 50 ul total RNA to PCR plate
+  3.  Add 50 ul RNA purification beads, pipette 6x to mix
+  4.  Place on thermocycler using the 'mRNA denaturation' cycle (65C 5
+  min, 4 C forever)
+  5.  Remove when thermocycler reaches 4C
+  6.  Place on bench 5 minutes to help bead binding.
+  7.  Place on magnetic stand 5 minutes to separate polyA
+  8.  Remove supernatant
+
+II)  Wash RNA and Beads
+  1.  Remove plate from stand
+  2.  Remove supernatant, do not distub beads
+  3.  Wash with 200 ul Bead Washing Buffer, mix 6x
+  4.  Place back on stand 5 minutes RT
+  5.  Remove/discard supernatant while on plate
+  6.  Remove from magnetic stand
+  7.  Add 50 ul Elution Buffer, mix 6x
+
+III) RNA Elution
+  1.  Place plate on thermocycler with the mRNA Elution program (80C 2
+  min, 25C forever) -- this elutes both mRNA and any remaining
+  ribosomal contamination
+  2.  Remove plate from thermocycler when it reaches 25C
+  3.  Return to bench
+
+IV) Prepare Fragmentation
+  At this point have a PCR plate with beads + eluted RNA
+  1.  Add 50 ul Bead Binding Buffer, mix 6x  -- mRNA should rebind to
+  beads
+  2.  Incubate plate RT 5 minutes (return bead binding buffer)
+  3.  Place plate on magnetic stand 5 minutes
+  4.  Remove/discard all supernatant
+  5.  Remove from stand
+  6.  Wash beads with 200 ul bead washing buffer, mix 6x (return
+  washing buffer to fridge)
+  7.  Place plate back on stand 5 minutes
+  8.  Remove/discard supernatant
+  9.  Remove from stand
+
+V) Fragmentation
+  1.  Add 45 ul Elution buffer and 5 ul NEB 10x PNK buffer
+  2.  Place on thermocycler on Fragmentation cycle (94C 8 minutes)
+  3.  Place plate on magnetic rack 5 minutes
+  4.  Remove supernatant away from beads, remaining RNA should be
+  fragmented and ready for PNK reaction
+  5.  Add 1 ul NEB PNK enzyme
+  6.  Incubate 37C 1 hour for end repair
+  7.  Precipitate with 39 ul water, 1 ul glycoblue, 10 ul 3M NaOAc,
+  150 ul isopropanol
+
+  At this point, the RNA should be in the exact state as in the
+  ribosome profile purified fragments on step IX "Linker Ligation"
+
