@@ -166,6 +166,9 @@ RT primer: (spC18 is hexa-ethylene glycol spacer)
 
 
 Illumina Index sequences (1-48)
+A more complete set may be found at:
+https://wikis.utexas.edu/display/GSAF/Illumina+-+all+flavors
+
 An example showing the full sequence with barcode #01 lined up
 CAAGCAGAAGACGGCATACGAGATCGTGATGTGACTGGAGTTC
                         CGTGAT
