@@ -1,6 +1,6 @@
-This describes the process to perform with totalRNA in an attempt to
-make it integrate it into the existing ribosome profiling library
-protocol.
+This describes the process to polyA select from totalRNA and integrate
+it into the existing ribosome profiling library protocol.
+
 This begins with the total RNA isolated at step II 9 of the ribosome
 profiling protocol and uses the excess oligo dT magnetic beads
 provided by the illumina RNAseq kit.  It therefore follows that
@@ -63,6 +63,19 @@ V) Fragmentation
   3.  Place plate on magnetic rack 5 minutes
   4.  Remove supernatant away from beads, remaining RNA should be
   fragmented and ready for PNK reaction
+
+  Note after discussion with Wanderson:
+  At this point I think it is important to gel purify the RNA to 28-50 nt fragments.
+  This would be as per step VII in the ribosome profile protocol.
+  Purifying the RNA before PNK at this point has one big advantage:
+  Post PNK and ligation, one must run another PAGE to see its state
+  and purify away from adaptor.  Thus if the 30-50 nt fragmented polyA
+  RNAs are gel purified at this time, then a successful ligation
+  downstream will be easily seen as ~80-110 fragments.  Unincorporated
+  primers therefore at ~50.
+
+  On the other hand, if size selection is not performed, continue:
+
   5.  Add 1 ul NEB PNK enzyme
   6.  Incubate 37C 1 hour for end repair
   7.  Precipitate with 39 ul water, 1 ul glycoblue, 10 ul 3M NaOAc,

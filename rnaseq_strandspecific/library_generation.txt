@@ -1,0 +1,112 @@
+Generating a strand-specific RNAseq library using the illumina and
+epicentre kits.
+
+RNA Binding Plate
+1.  Dilute total mRNA to 50 ul, 500 pg - 50 ng.  Thaw RNA beads.
+2.  Vortex RNA beads
+3.  Add 50 ulRNA purification beads; pipette 6x to mix
+
+Incubate RNA Binding Plate
+1.  Place on themocycler for mRNA denaturation cycle (65 C 5 min; 4 C)
+2.  Remove when cycle reaches 4 C
+3.  Place on bench 5 minutes to help binding
+
+RNA Binding Plate Wash
+1.  Place on magnetic stand 5 minutes to separate polyA
+2.  Remove all supernatant
+3.  Remove from stand
+4.  Wash with 200 ul bead washing buffer, pipette mix 6x
+5.  Place back on stand 5 minutes
+6.  Remove/discard supernatant; do not disturb beads
+7.  Remove plate from stand
+8.  Add 50 ul elution buffer; mix 6x
+
+Incubate RNA Binding Plate
+1.  Place plate on thermocycler for mRNA elution (80 C 2 min; 25 C)
+2.  Remove plate when it reaches 25 C
+
+Make RNA Fragmentation Plate
+1.  Add 50 ul bead binding buffer; mix 6x
+2.  Incubate 5 min RT
+3.  Put back on stand 5 min
+4.  Remove/discard supernatant
+5.  Remove from stand
+6.  Wash with 200 ul bead washing buffer; mix 6x
+7.  Back on stand 5 min
+8.  Remove/discard supernatant
+9.  Remove from stand
+10. Add 19.5 ul of Elute, Prime, Fragment Mix to each sample; pipette
+ mix 6x.  This contains random hexamers.
+
+Incubate Fragmentation Plate
+1.  Place on thermocycler (94 C 8 minutes; 4 C)
+2.  Remove from thermocycler as soon as 4 C
+3.  Place on magnetic stand RT 5 minutes
+4.  Program thermocycler for first strand synthesis
+    (25 C 5 minutes; 42 C 30 minutes; 37 pause)
+5.  Place plate on stand 5 minutes
+6.  Potentially transfer 12 ul to new tubes  
+
+Epicentre cDNA Synthesis
+1.  Make Master mix for each well containing
+  3 ul cDNA synthesis mix, 0.5 ul DTT, 0.5 ul RT to a total 4 ul /
+  sample
+2.  Add 4 ul master mix to each sample
+3.  Take to thermocycler pre-programmed for RT reaction
+4.  Add 1 ul finishing enzyme to each sample at 37 C
+5.  Incubate 37 C 10 min, 95 C 3 min, cool to 25 C
+
+Epicentre Tag DNA
+1.  Make tagging premix for each sample containing: 7.5 ul Tagging mix
+and 0.5 ul DNA polymerase
+2.  Add 8 ul mix to each sample
+3.  Incubate RT 15 minutes followed by 95 C 3 minutes followed by 4 C
+
+Epicentre cDNA purification
+a.  Pre-make ~ 10 ml 80% ethanol
+1.  Vortex beads until well dispersed.  Add 50 ul to each well, mix
+10x
+2.  Incubate RT 15 minutes
+3.  Place on stand 5 minutes
+4.  Remove 79 ul supernatant from each well 
+5.  Add 200 ul 80% fresh EtOH
+6.  Incubate 30 seconds RT, remove/discard supernatant
+7.  Add 200 ul 80% fresh EtOH
+8.  Incubate 30 seconds RT, remove/discard supernatant
+9.  Let stand RT 15 minutes to dry
+10. Add 20 ul water and remove from magnetic stand
+11. Mix to fully resuspend beads
+12. Incubate plate 2 minutes RT
+13. Place plate on stand 5 minutes
+14. Transfer cDNA to fresh plate
+
+Epicentre PCR amplification
+1.  For each tube containing ~ 22.5 ul cDNA add
+  a) 25 ul FailSafe PCR enzyme mix
+  b) 1 ul Forward PCR primer
+  c) 1 ul Reverse PCR primer
+  d) 0.5 ul FailSafe PCR enzyme (1.25)
+2.  PCR denature 1 min 95
+  a) 12-15 cycles of 95 C 30 seconds
+  b) 55 C 30 seconds
+  c) 68 C 3 minutes
+
+  d) final extension 7 minute
+
+Epicentre Final Cleaning
+a.  Pre-make ~ 10 ml 80% ethanol
+1.  Vortex beads until well dispersed.  Add 50 ul to each well, mix
+10x
+2.  Incubate RT 15 minutes
+3.  Place on stand 5 minutes
+4.  Remove 79 ul supernatant from each well 
+5.  Add 200 ul 80% fresh EtOH
+6.  Incubate 30 seconds RT, remove/discard supernatant
+7.  Add 200 ul 80% fresh EtOH
+8.  Incubate 30 seconds RT, remove/discard supernatant
+9.  Let stand RT 15 minutes to dry
+10. Add 20 ul water and remove from magnetic stand
+11. Mix to fully resuspend beads
+12. Incubate plate 2 minutes RT
+13. Place plate on stand 5 minutes
+14. Transfer cDNA to fresh plate
